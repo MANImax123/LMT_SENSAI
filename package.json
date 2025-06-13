@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "prisma generate && next build",
     "start": "next start",
-    "lint": "next lint",
-    "install": "npm install --legacy-peer-deps"
+    "lint": "next lint"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.21.0",
@@ -53,13 +52,5 @@
     "eslint-config-next": "13.4.19",
     "prisma": "^6.9.0",
     "typescript": "^5"
-  },
-  "resolutions": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "overrides": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
   }
 }
